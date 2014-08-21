@@ -1,0 +1,5 @@
+name = Create List from integer in rules
+description = Implements https://www.drupal.org/node/1525582
+package = Rules
+core = 7.x
+dependencies[] = rules

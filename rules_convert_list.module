@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Action: Integer to list.
+ *
+ * @param number $integer
+ *
+ * @return array
+ */
+function rules_convert_list_action_integer_to_list($integer) {
+  return array('converted_list' => range(0, $integer-1));
+}
